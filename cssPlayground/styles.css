@@ -1,0 +1,8 @@
+
+span {
+    display: inline-block;
+    background-color: peachpuff;
+    border: 1px solid grey;
+    padding: 0 20px;
+    margin-top: 20px;
+}
