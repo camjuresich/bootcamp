@@ -1,0 +1,47 @@
+body {
+    background-color: #f5d9d5;
+}
+
+.navbar{
+    background-color: transparent;
+}
+.navbar-brand, .nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: 0;
+    padding-left: 0; 
+    text-transform: uppercase;
+    
+}
+
+#mainNavbar {
+    transition: background-color 2s ease-in-out;
+}
+
+#mainNavbar .navbar-brand {
+    /* margin: 0 */
+    color: red;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: red;
+}
+.scrolled {
+    background-color: rgb(222,192,222);
+}
+
+
+@media(min-width: 992px) {
+    .nav-link{
+        /* padding: 0 0.5em; */
+    }
+}
+
+a {
+    background-color: transparent;
+}
