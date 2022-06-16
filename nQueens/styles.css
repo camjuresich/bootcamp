@@ -1,0 +1,25 @@
+.queen {
+    viewport-fit: 0 0 100 100;
+
+}
+
+.tile-white, .tile-black {
+
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.chessboard {
+    
+}
+.tile-white {
+    background-color: antiquewhite;
+}
+.tile-black { 
+    background-color: black;
+}
+
+
+.black-border {
+    border: 2px solid black;
+}
